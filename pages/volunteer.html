@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaence - Rétablir le lien entre les générations</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/volunteer.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <span class="logo-icon">☕️</span>
+          <div>Ada<span>ence</span></div>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="../index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-house-icon lucide-house">
+                  <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                  <path
+                    d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                </svg>
+                Accueil
+              </a>
+            </li>
+            <li>
+              <a href="search.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-accessibility-icon lucide-accessibility">
+                  <circle cx="16" cy="4" r="1" />
+                  <path d="m18 19 1-7-6 1" />
+                  <path d="m5 8 3-3 5.5 3-2.36 3.5" />
+                  <path d="M4.24 14.5a5 5 0 0 0 6.88 6" />
+                  <path d="M13.76 17.5a5 5 0 0 0-6.88-6" />
+                </svg>
+                Je rends visite
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-book-open-icon lucide-book-open">
+                  <path d="M12 7v14" />
+                  <path
+                    d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+                </svg>
+                Guide du partage
+              </a>
+            </li>
+            <li>
+              <a href="volunteer.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-hand-helping-icon lucide-hand-helping">
+                  <path d="M11 12h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 14" />
+                  <path
+                    d="m7 18 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+                  <path d="m2 13 6 6" />
+                </svg>
+                Devenir bénévole
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a href="donate.html" class="btn btn-secondary">Faire un don 🫶</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="volunteer-hero">
+    <div class="container">
+      <h1>Devenir bénévole</h1>
+      <p>Rejoignez notre communauté et donnez du sens à votre temps libre. En devenant bénévole chez Adaence, vous
+        contribuez à rétablir des liens humains essentiels avec nos aînés.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="volunteer-form-container">
+      <h2 class="section-title" style="margin-top: 0;">Formulaire d'inscription</h2>
+      <p class="section-subtitle">Remplissez ce formulaire pour rejoindre notre réseau de bénévoles. Nous vous
+        contacterons rapidement pour vous présenter les prochaines étapes.</p>
+
+      <form class="volunteer-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name" class="required-field">Prénom</label>
+            <input type="text" id="first-name" required placeholder="Votre prénom">
+          </div>
+          <div class="form-group">
+            <label for="last-name" class="required-field">Nom</label>
+            <input type="text" id="last-name" required placeholder="Votre nom">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="required-field">Adresse email</label>
+          <input type="email" id="email" required placeholder="exemple@email.com">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="city" class="required-field">Ville</label>
+            <input type="text" id="city" required placeholder="Votre ville">
+          </div>
+          <div class="form-group">
+            <label for="postal-code" class="required-field">Code postal</label>
+            <input type="text" id="postal-code" required placeholder="Code postal">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="availability" class="required-field">Disponibilités</label>
+          <select id="availability" required>
+            <option value="" disabled selected>Sélectionnez vos disponibilités</option>
+            <option value="weekly">Une fois par semaine</option>
+            <option value="monthly">Une fois par mois</option>
+            <option value="quarterly">Une fois par trimestre</option>
+            <option value="biannually">Une fois par semestre</option>
+            <option value="annually">Une fois par an</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="motivation" class="required-field">Votre motivation</label>
+          <textarea id="motivation" required
+            placeholder="Parlez-nous de votre motivation à devenir bénévole chez Adaence..."></textarea>
+        </div>
+
+        <div style="text-align: center; margin-top: 1rem;">
+          <button type="submit" class="btn btn-accent">Envoyer ma candidature</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <section class="volunteer-benefits">
+    <div class="container">
+      <h2 class="section-title">Pourquoi devenir bénévole ?</h2>
+      <p class="section-subtitle">Être bénévole chez Adaence, c'est bien plus qu'une simple activité. C'est une
+        expérience enrichissante qui apporte du sens à votre vie et à celle des autres.</p>
+
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <div class="benefit-icon">🌱</div>
+          <h3 class="benefit-title">Faire une différence concrète</h3>
+          <p>Chaque visite, chaque sourire partagé contribue à réduire l'isolement des personnes âgées et enrichit
+            leur quotidien.</p>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">🧠</div>
+          <h3 class="benefit-title">Acquérir de nouvelles compétences</h3>
+          <p>Développez votre empathie, votre écoute active et vos qualités relationnelles tout en vous formant à
+            l'accompagnement des aînés.</p>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">👥</div>
+          <h3 class="benefit-title">Intégrer une communauté solidaire</h3>
+          <p>Rejoignez un réseau de bénévoles engagés et participez à des événements qui renforcent le lien social au
+            sein de votre territoire.</p>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">🌟</div>
+          <h3 class="benefit-title">Donner du sens à votre temps</h3>
+          <p>Transformez votre temps libre en moments précieux de partage intergénérationnel et de transmission de
+            savoirs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="volunteer-testimonials">
+    <div class="container">
+      <h2 class="section-title">Témoignages de bénévoles</h2>
+      <p class="section-subtitle">Découvrez ce que nos bénévoles ont à dire sur leur expérience avec Adaence</p>
+
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img src="/images/anil-sharma-vssw0Ad6TFg-unsplash.jpg" alt="Photo de Marie" class="author-image">
+          <div>
+            <div class="testimonial-author">Marie D.</div>
+            <div class="testimonial-role">Bénévole depuis 1 an</div>
+          </div>
+        </div>
+        <div class="testimonial-quote">
+          <p>"J'ai commencé à rendre visite à Germaine il y a un an. Ce qui devait être une simple visite hebdomadaire
+            est devenu une véritable amitié. Nous partageons des recettes, des histoires et beaucoup de rires. Cette
+            expérience m'a ouvert les yeux sur la richesse que représente l'échange intergénérationnel."</p>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img src="/images/diego-hernandez-MSepzbKFz10-unsplash.jpg" alt="Photo de Thomas" class="author-image">
+          <div>
+            <div class="testimonial-author">Thomas L.</div>
+            <div class="testimonial-role">Bénévole depuis 6 mois</div>
+          </div>
+        </div>
+        <div class="testimonial-quote">
+          <p>"Je cherchais une façon de m'engager localement et Adaence m'a permis de rencontrer Robert, un ancien
+            menuisier passionné. Nos promenades hebdomadaires sont devenues des moments que j'attends avec impatience.
+            J'apprends énormément de son expérience et de sa vision de la vie."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="section-title">Des questions ?</h2>
+      <p class="section-subtitle">Nous sommes là pour répondre à toutes vos interrogations concernant le bénévolat
+        chez Adaence. N'hésitez pas à nous contacter pour en savoir plus sur notre démarche.</p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="#" class="btn btn-primary">Foire aux questions</a>
+        <a href="#" class="btn btn-secondary">Contactez-nous</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Adaence</h3>
+          <p>Notre mission est de recréer du lien avec les personnes âgées isolées, en leur offrant des moments de
+            partage, d'écoute et de présence.</p>
+          <div class="social-links" style="margin-top: 1rem;">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-facebook-icon lucide-facebook">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-instagram-icon lucide-instagram">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-linkedin-icon lucide-linkedin">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-twitch-icon lucide-twitch">
+                <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Informations utiles</h3>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Liste des activités</a></li>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#">Mentions légales</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>116 Rue du Faubourg Saint-Martin<br>75010 Paris, France</p>
+          <p>Email: contact@adaence.fr<br>Tél: +33 1 23 45 67 89</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2025 Adaence. Tous droits réservés.</p>
+      <p>Ce site a été développé dans le cadre d'un projet pour ADA Tech School.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
